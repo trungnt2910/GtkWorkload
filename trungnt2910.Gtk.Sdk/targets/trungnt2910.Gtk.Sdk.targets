@@ -1,0 +1,56 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- Setup GTK. This is the default target file, included in the official GtkSharp -->
+  <Import Project="GtkSharp.targets" />
+
+  <!-- Register net6.0-gtk3.0 TFM -->
+  <ItemGroup>
+    <SupportedPlatform Include="gtk" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <_DefaultTargetPlatformVersion>3.0</_DefaultTargetPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetPlatformSupported>true</TargetPlatformSupported>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">$(_DefaultTargetPlatformVersion)</TargetPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SdkSupportedTargetPlatformVersion Include="3.0" />
+  </ItemGroup>
+
+  <!-- Register GTK runtime -->
+  <ItemGroup>
+    <KnownFrameworkReference
+      Include="trungnt2910.Gtk"
+      TargetFramework="net6.0"
+      RuntimeFrameworkName="trungnt2910.Gtk"
+      DefaultRuntimeFrameworkVersion="**FromWorkload**"
+      LatestRuntimeFrameworkVersion="**FromWorkload**"
+      TargetingPackName="trungnt2910.Gtk.Ref"
+      TargetingPackVersion="**FromWorkload**"
+      RuntimePackNamePatterns="trungnt2910.Gtk.Runtime"
+      RuntimePackRuntimeIdentifiers="win-x64;win-x86;linux-x64;linux-x86"
+      Profile="Gtk"
+    />
+  </ItemGroup>
+
+  <!-- Reference GTK runtime -->
+  <ItemGroup Condition=" '$(DisableImplicitFrameworkReferences)' != 'true' ">
+    <FrameworkReference
+      Include="trungnt2910.Gtk"
+      IsImplicitlyDefined="true"
+      Pack="false"
+      PrivateAssets="All"
+    />
+  </ItemGroup>
+
+  <!-- Project properties -->
+  <PropertyGroup>
+    <_IsGtkDefined>$([System.Text.RegularExpressions.Regex]::IsMatch('$(DefineConstants.Trim())', '(^|;)GTK($|;)'))</_IsGtkDefined>
+    <DefineConstants Condition="!$(_IsGtkDefined)">GTK;$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+
+</Project>

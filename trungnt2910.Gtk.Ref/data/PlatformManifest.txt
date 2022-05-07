@@ -1,0 +1,7 @@
+AtkSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+CairoSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+GdkSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+GioSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+GLibSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+GtkSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38
+PangoSharp.dll|trungnt2910.Gtk.Ref|3.24.24.38|3.24.24.38

@@ -1,0 +1,33 @@
+{
+    "version": "6.0.200",
+    "workloads": {
+      "gtk": {
+        "description": ".NET SDK Workload for building Gtk applications.",
+        "packs": [
+          "trungnt2910.Gtk.Sdk",
+          "trungnt2910.Gtk.Ref",
+          "trungnt2910.Gtk.Templates",
+          "trungnt2910.Gtk.Runtime"
+        ]
+      }
+    },
+    "packs": {
+      "trungnt2910.Gtk.Sdk": {
+        "kind": "sdk",
+        "version": "6.0.200"
+      },
+      "trungnt2910.Gtk.Ref": {
+        "kind": "framework",
+        "version": "6.0.200"
+      },
+      "trungnt2910.Gtk.Templates": {
+        "kind": "template",
+        "version": "6.0.200"
+      },
+      "trungnt2910.Gtk.Runtime": {
+        "kind": "framework",
+        "version": "6.0.200"
+      }
+    }
+  }
+  

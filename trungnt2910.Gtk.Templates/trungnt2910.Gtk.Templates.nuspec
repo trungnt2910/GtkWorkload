@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>trungnt2910.Gtk.Templates</id>
+    <version>6.0.200</version>
+    <authors>trungnt2910</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <description>Templates for GtkSharp apps.</description>
+    <packageTypes>
+      <packageType name="DotnetPlatform" />
+    </packageTypes>
+  </metadata>
+</package>

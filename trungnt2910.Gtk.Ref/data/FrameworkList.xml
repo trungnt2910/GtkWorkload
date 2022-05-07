@@ -1,0 +1,9 @@
+<FileList Name=".NET 6.0 - GTK" TargetFrameworkIdentifier=".NETCoreApp" TargetFrameworkVersion="6.0" FrameworkName="trungnt2910.Gtk">
+  <File Type="Managed" Path="ref/net6.0/AtkSharp.dll" AssemblyName="AtkSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/CairoSharp.dll" AssemblyName="CairoSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/GdkSharp.dll" AssemblyName="GdkSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/GioSharp.dll" AssemblyName="GioSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/GLibSharp.dll" AssemblyName="GLibSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/GtkSharp.dll" AssemblyName="GtkSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+  <File Type="Managed" Path="ref/net6.0/PangoSharp.dll" AssemblyName="PangoSharp" AssemblyVersion="3.24.24.38" FileVersion="3.24.24.38" PublicKeyToken="null" Profile="GTK" />
+</FileList>
